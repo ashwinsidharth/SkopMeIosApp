@@ -22,6 +22,7 @@
 		376DD7EB190572E3001FCC28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376DD7CA190572E3001FCC28 /* UIKit.framework */; };
 		376DD7F3190572E3001FCC28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 376DD7F1190572E3001FCC28 /* InfoPlist.strings */; };
 		376DD7F5190572E3001FCC28 /* iosappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 376DD7F4190572E3001FCC28 /* iosappTests.m */; };
+		376DD80019057325001FCC28 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376DD7FF19057325001FCC28 /* LoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		376DD7F0190572E3001FCC28 /* iosappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iosappTests-Info.plist"; sourceTree = "<group>"; };
 		376DD7F2190572E3001FCC28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		376DD7F4190572E3001FCC28 /* iosappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosappTests.m; sourceTree = "<group>"; };
+		376DD7FE19057325001FCC28 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		376DD7FF19057325001FCC28 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				376DD7DF190572E3001FCC28 /* ViewController.m */,
 				376DD7E1190572E3001FCC28 /* Images.xcassets */,
 				376DD7CD190572E3001FCC28 /* Supporting Files */,
+				376DD7FE19057325001FCC28 /* LoginController.h */,
+				376DD7FF19057325001FCC28 /* LoginController.m */,
 			);
 			path = iosapp;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376DD7E0190572E3001FCC28 /* ViewController.m in Sources */,
+				376DD80019057325001FCC28 /* LoginController.m in Sources */,
 				376DD7D7190572E3001FCC28 /* AppDelegate.m in Sources */,
 				376DD7D3190572E3001FCC28 /* main.m in Sources */,
 			);
